@@ -4,25 +4,36 @@
 <meta charset="utf-8">
 <title>发现新大陆</title>
 
-<p style="font-size:20px; color:#930; font-weight:bold">你知道得太多了！</p>
-<img src="http://7xsv9s.com1.z0.glb.clouddn.com/201509_Tianzhushan%2FIMG_5012.JPG" width="49%"> <img src="http://7xsv9s.com1.z0.glb.clouddn.com/201509_Tianzhushan%2FIMG_5018.JPG" width="49%">
+<p style="font-size:20px; color:#930; font-weight:bold; text-align: center">你知道得太多了！</p>
 
 <script type="text/javascript">
-var time = 3; //时间,秒
+var time = 11; //时间,秒
 function Redirect() {
     window.location = "http://pujh.site/categories/Crystal/";
 }
-var i = 0;
-//function dis() {
-//    document.all.s.innerHTML = "还剩" + (time - i) + "秒";
-//    i++;
-//}
+var i = 1;
 
+function dis() {
+    document.all.s.innerHTML = (time - i) + "秒后爆炸！！！！！！！！";
+    s.style.color="blue";
+	s.style.fontSize="18";
+	s.style.align="center";
+    i++;
+}
 timer = setInterval('dis()', 1000); //显示时间
 timer = setTimeout('Redirect()', time * 1000); //跳转
 </script>
+
 </head>
 <body>
-<span id="s"></span>
+<div id="s"></div>
 </body>
+
+<p>
+<img src="http://odybz8bb4.bkt.clouddn.com/crystal_redirect/300529342.jpg" width="49%">
+<img src="http://odybz8bb4.bkt.clouddn.com/crystal_redirect/197949447.jpg" width="49%">
+
+<img src="http://odybz8bb4.bkt.clouddn.com/crystal_redirect/1361488668.jpg" width="49%">
+<img src="http://odybz8bb4.bkt.clouddn.com/crystal_redirect/197047136.jpg" width="49%">
+</p>
 </html>
